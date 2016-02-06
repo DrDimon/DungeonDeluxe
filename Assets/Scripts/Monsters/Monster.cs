@@ -2,7 +2,6 @@
 using System.Collections;
 public class Monster : Being{
     public GameObject player;
-    public int health;
 
     //returns amount of dmg done.
     int attack(GameObject target)
